@@ -1,0 +1,9 @@
+package com.example.hospital_management.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.hospital_management.entity.Patient;
+
+public interface PatientRepository extends JpaRepository<Patient, Long>  {
+
+}
